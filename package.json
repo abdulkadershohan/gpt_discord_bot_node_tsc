@@ -1,0 +1,33 @@
+{
+  "name": "gpt_discord_bot_node_tsc",
+  "version": "1.0.0",
+  "description": " Create a Chat GPT Bot in Discord (with GPT-4)",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulkadershohan/gpt_discord_bot_node_tsc.git"
+  },
+  "author": "Md Abdul Kader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulkadershohan/gpt_discord_bot_node_tsc/issues"
+  },
+  "homepage": "https://github.com/abdulkadershohan/gpt_discord_bot_node_tsc#readme",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "openai": "^4.52.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}
